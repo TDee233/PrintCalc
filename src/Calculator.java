@@ -1,5 +1,5 @@
 public class Calculator {
-    public double calcTotalCost(Product product) {
+    public double calculateTotalCost(Product product) {
         return product.getPricePerUnit() * product.getQuantity();
     }
 }
