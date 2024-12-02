@@ -1,4 +1,4 @@
-import java.sql.SQLOutput;
+
 import java.util.Scanner;
 
 public class Calculator {
@@ -16,7 +16,10 @@ public class Calculator {
         if (chooseCat == 1) {
             System.out.println("Вы выбрали категорию Визитки");
         }
-        else System.out.println("Вы выбрали категорию Пластиковые карты");
+        else if (chooseCat == 2) {
+            System.out.println("Вы выбрали категорию Пластиковые карты");
+        }
+        else System.out.println("Неверная категория");
 
         System.out.println("Введите количество единиц продукции: ");
         int quantity = scanner.nextInt();
