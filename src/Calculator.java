@@ -26,6 +26,9 @@ public class Calculator {
 
         System.out.println("Расчет для количества: " + quantity);
 
+//        if (chooseCat == 1)
+//            System.out.println(quantity*Price.businessCard);
+
 
 
         double totalCost = quantity * materials.getPricePerUnit();
