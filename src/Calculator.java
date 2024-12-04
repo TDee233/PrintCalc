@@ -28,7 +28,8 @@ public class Calculator {
 
 //        if (chooseCat == 1)
 //            System.out.println(quantity*Price.businessCard);
-
+//      нужна реализация под каждый материал
+//        если выбрано 1 категория то расчет по одной категории и т.п.
 
 
         double totalCost = quantity * materials.getPricePerUnit();
