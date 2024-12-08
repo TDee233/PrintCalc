@@ -9,6 +9,12 @@ public class Calculator {
     }
 
     public void calculateCost() {
+
+
+                Price vizitka = new Price();
+                System.out.println("Цена за 1 визитку: " + vizitka.getBusinessCardPrice());
+
+
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Выберите категорию: \n 1 - визитки\n 2 - пластиковые карты");
@@ -26,8 +32,8 @@ public class Calculator {
 
         System.out.println("Расчет для количества: " + quantity);
 
-//        if (chooseCat == 1)
-//            System.out.println(quantity*Price.businessCard);
+        if (chooseCat == 1)
+            System.out.println(quantity*vizitka.getBusinessCardPrice());
 //      нужна реализация под каждый материал
 //        если выбрано 1 категория то расчет по одной категории и т.п.
 
@@ -38,7 +44,7 @@ public class Calculator {
 
     public static void main(String[] args) {
         // Пример фиксированной цены за единицу продукции
-        Materials materials = new Materials(10.0); // Например, 10.0 за единицу
+        Materials materials = new Materials(888.0); // Например, 10.0 за единицу
         Calculator calculator = new Calculator(materials);
 
         // Запуск калькулятора
