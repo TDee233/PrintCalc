@@ -2,14 +2,13 @@
 import java.util.Scanner;
 
 public class Calculator {
-    private Materials materials;
-
-    public Calculator(Materials materials) {
-        this.materials = materials;
-    }
+//    private Materials materials;
+//
+//    public Calculator(Materials materials) {
+//        this.materials = materials;
+//    }
 
     public void calculateCost() {
-
 
                 Price vizitka = new Price();
                 System.out.println("Цена за 1 визитку: " + vizitka.getBusinessCardPrice());
@@ -38,14 +37,14 @@ public class Calculator {
 //        если выбрано 1 категория то расчет по одной категории и т.п.
 
 
-        double totalCost = quantity * materials.getPricePerUnit();
-        System.out.printf("Общая стоимость: %.2f\n", totalCost);
+//        double totalCost = quantity * materials.getPricePerUnit();
+//        System.out.printf("Общая стоимость: %.2f\n", totalCost);
     }
 
     public static void main(String[] args) {
         // Пример фиксированной цены за единицу продукции
-        Materials materials = new Materials(888.0); // Например, 10.0 за единицу
-        Calculator calculator = new Calculator(materials);
+//        Materials materials = new Materials(888.0); // Например, 10.0 за единицу
+        Calculator calculator = new Calculator();
 
         // Запуск калькулятора
         calculator.calculateCost();
