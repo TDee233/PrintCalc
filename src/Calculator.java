@@ -44,9 +44,9 @@ public class Calculator {
     public static void main(String[] args) {
         // Пример фиксированной цены за единицу продукции
 //        Materials materials = new Materials(888.0); // Например, 10.0 за единицу
-        Calculator calculator = new Calculator();
+        Calculator firstCalc = new Calculator();
 
         // Запуск калькулятора
-        calculator.calculateCost();
+        firstCalc.calculateCost();
     }
 }
