@@ -28,7 +28,10 @@ public class CostCalculator {
         if (chooseCat == 1) {
             System.out.println("Общая стоимость: " + (quantity * vizitka.getBusinessCardPrice()));
         }
-        // Добавьте логику для пластиковых карт, если это необходимо
+        if (chooseCat == 2) {
+            System.out.println("Общая стоимость: " + (quantity * vizitka.getPlasticCardPrice()));
+        }
+
     }
 
     private int getCategoryChoice() {

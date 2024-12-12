@@ -9,6 +9,9 @@ final double banner = 550;
     public double getBusinessCardPrice() {
         return businessCard;
     }
+    public double getPlasticCardPrice() {
+        return plasticCard;
+    }
 
 }
 
