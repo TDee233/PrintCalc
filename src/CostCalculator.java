@@ -71,31 +71,31 @@ public class CostCalculator {
         // Определяем наценку или скидку в зависимости от категории
         double markupOrDiscount = 0.0;
 
-        switch (category) {
-            case 1: // Электроника
-                if (quantity > 10) {
-                    markupOrDiscount = -0.10; // Скидка 10%
-                } else {
-                    markupOrDiscount = 0.15; // Наценка 15%
-                }
-                break;
-            case 2: // Одежда
-                if (quantity > 5) {
-                    markupOrDiscount = -0.05; // Скидка 5%
-                } else {
-                    markupOrDiscount = 0.10; // Наценка 10%
-                }
-                break;
-            case 3: // Продукты
-                if (quantity > 20) {
-                    markupOrDiscount = -0.20; // Скидка 20%
-                } else {
-                    markupOrDiscount = 0.00; // Без наценки или скидки
-                }
-                break;
-            default:
-                System.out.println("Неверная категория.");
-                return 0;
+//        switch (category) {
+//            case 1: // Электроника
+//                if (quantity > 10) {
+//                    markupOrDiscount = -0.10; // Скидка 10%
+//                } else {
+//                    markupOrDiscount = 0.15; // Наценка 15%
+//                }
+//                break;
+//            case 2: // Одежда
+//                if (quantity > 5) {
+//                    markupOrDiscount = -0.05; // Скидка 5%
+//                } else {
+//                    markupOrDiscount = 0.10; // Наценка 10%
+//                }
+//                break;
+//            case 3: // Продукты
+//                if (quantity > 20) {
+//                    markupOrDiscount = -0.20; // Скидка 20%
+//                } else {
+//                    markupOrDiscount = 0.00; // Без наценки или скидки
+//                }
+//                break;
+//            default:
+//                System.out.println("Неверная категория.");
+//                return 0;
         }
 
         // Рассчитываем итоговую стоимость
