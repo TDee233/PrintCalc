@@ -65,11 +65,11 @@ public class CostCalculator {
         calculator.calculateCost();
     }
 
-    public static double calculatePrice(int category, int quantity) {
-        double basePrice = 100.0; // Базовая цена за единицу
-
-        // Определяем наценку или скидку в зависимости от категории
-        double markupOrDiscount = 0.0;
+//    public static double calculatePrice(int category, int quantity) {
+//        double basePrice = 100.0; // Базовая цена за единицу
+//
+//        // Определяем наценку или скидку в зависимости от категории
+//        double markupOrDiscount = 0.0;
 
 //        switch (category) {
 //            case 1: // Электроника
@@ -96,10 +96,10 @@ public class CostCalculator {
 //            default:
 //                System.out.println("Неверная категория.");
 //                return 0;
-        }
-
-        // Рассчитываем итоговую стоимость
-        double pricePerUnit = basePrice * (1 + markupOrDiscount);
-        return pricePerUnit * quantity;
+//        }
+//
+//        // Рассчитываем итоговую стоимость
+//        double pricePerUnit = basePrice * (1 + markupOrDiscount);
+//        return pricePerUnit * quantity;
     }
 }
