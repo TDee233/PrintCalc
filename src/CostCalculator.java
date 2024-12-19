@@ -102,4 +102,3 @@ public class CostCalculator {
 //        double pricePerUnit = basePrice * (1 + markupOrDiscount);
 //        return pricePerUnit * quantity;
     }
-}

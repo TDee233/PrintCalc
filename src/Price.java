@@ -13,6 +13,18 @@ final double sticker = 10;
     public double getPlasticCardPrice() {
         return plasticCard;
     }
+    public double getInteriorPrintPrice() {
+        return interiorPrint;
+    }
+    public double gettShirtPrice() {
+        return tShirt;
+    }
+    public double getBannerPrice() {
+        return banner;
+    }
+    public double getStickerPrice() {
+        return sticker;
+    }
 
 }
 
