@@ -7,6 +7,13 @@ final double tShirt = 850;
 final double banner = 550;
 final double sticker = 10;
 
+
+
+final double doublePrice = 2.0;
+final double quarterPrice = 0.25;
+final double halfPrice = 0.5;
+
+
     public double getBusinessCardPrice() {
         return businessCard;
     }
@@ -24,6 +31,18 @@ final double sticker = 10;
     }
     public double getStickerPrice() {
         return sticker;
+    }
+
+    public double getDoublePrice() {
+        return doublePrice;
+    }
+
+    public double getQuarterPrice() {
+        return quarterPrice;
+    }
+
+    public double getHalfPrice() {
+        return halfPrice;
     }
 
 }

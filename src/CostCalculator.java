@@ -46,7 +46,7 @@ public class CostCalculator {
         } catch (InputMismatchException e) {
             System.out.println("Пожалуйста, введите число.");
         }
-        return -1; // Возвращаем -1 для обозначения неверного выбора
+        return -1;
     }
 
     private int getQuantity() {
@@ -56,7 +56,7 @@ public class CostCalculator {
             return scanner.nextInt();
         } catch (InputMismatchException e) {
             System.out.println("Пожалуйста, введите число.");
-            return -1; // Возвращаем -1 для обозначения неверного ввода
+            return -1;
         }
     }
 
