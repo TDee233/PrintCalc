@@ -26,7 +26,8 @@ public class CostCalculator {
 
         System.out.println("Расчет для количества: " + quantity);
         if (chooseCat == 1) {
-            System.out.println("Общая стоимость: " + (quantity * vizitka.getBusinessCardPrice()));
+            System.out.println("Общая стоимость: " + (quantity * vizitka.getBusinessCardPrice() * vizitka.getDoublePrice()));
+            //реализовать выбор и скидку наценку
         }
         if (chooseCat == 2) {
             System.out.println("Общая стоимость: " + (quantity * vizitka.getPlasticCardPrice()));
@@ -71,24 +72,24 @@ public class CostCalculator {
 //        // Определяем наценку или скидку в зависимости от категории
 //        double markupOrDiscount = 0.0;
 
-        switch (chooseCat) {
-            case 1: // Визитки
-                if (getQuantity() > 10) {
-                   getDoublePrice markupOrDiscount = -0.10; // Скидка 10%
-                } else {
-                    markupOrDiscount = 0.15; // Наценка 15%
-                }
-                break;
-            case 2: // Пластиковые карты
-                if (quantity > 5) {
-                    markupOrDiscount = -0.05; // Скидка 5%
-                } else {
-                    markupOrDiscount = 0.10; // Наценка 10%
-                }
-                break;
-
-            default:
-                System.out.println("Неверная категория.");
-                return 0;
-        }
+//        switch (chooseCat) {
+//            case 1: // Визитки
+//                if (getQuantity() > 10) {
+//                   getDoublePrice markupOrDiscount = -0.10; // Скидка 10%
+//                } else {
+//                    markupOrDiscount = 0.15; // Наценка 15%
+//                }
+//                break;
+//            case 2: // Пластиковые карты
+//                if (quantity > 5) {
+//                    markupOrDiscount = -0.05; // Скидка 5%
+//                } else {
+//                    markupOrDiscount = 0.10; // Наценка 10%
+//                }
+//                break;
+//
+//            default:
+//                System.out.println("Неверная категория.");
+//                return 0;
+//        }
     }
