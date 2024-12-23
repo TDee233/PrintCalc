@@ -3,10 +3,15 @@ import java.util.Scanner;
 
 public class CostCalculator {
 
+    double square;
     private Price vizitka;
 
     public CostCalculator() {
         this.vizitka = new Price();
+    }
+
+    public void Square (double square) {
+        this.square = square;
     }
 
     public void calculateCost() {
