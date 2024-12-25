@@ -7,6 +7,7 @@ final double goldPlasticCard = 25;
 final double tShirt = 850;
 final double banner = 550;
 final double sticker = 10;
+final double note = 350;
 
 
 
